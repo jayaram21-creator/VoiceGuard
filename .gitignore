@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Python Virtual Environments & Caches
+venv/
+.venv/
+ai-service/venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Models and Datasets
+ai-service/models/
+ai-service/data/
+
+# Local History & IDE files
+.lh/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary and Scratch Directories
+scratch/
+sih_extracted_images/
+sih_slide_previews/
+*.zip
+test_shapes.pptx
+*.log
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-journal
+
